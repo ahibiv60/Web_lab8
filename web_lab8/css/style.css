@@ -1,0 +1,69 @@
+.topmenu a {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: .3s linear;
+    /*margin: 15px;*/
+    line-height: 30px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.background_title {
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+.main_title {
+    letter-spacing: 3px;
+    text-align: center;
+    color: black;
+}
+
+.background_img_1 {
+    background: #c7b39b url(../imagine/OE_main.jpg);
+    height: 500px;
+}
+
+.background_img_2 {
+    background: #c7b39b url(../imagine/OE_news_backgroung.jpg);
+    height: 300px;
+}
+
+.background_text {
+    text-align: center;
+    color: #a9a9a9;
+    font-size: 18px;
+}
+
+.footer {
+    padding: 10px;
+    background: #e5e5e5;
+    color: #979797;
+    width: 100%;
+    margin: 150px 0 0 0;
+}
+
+.footer p {
+    padding-left: 100px;
+    font-size: 11px;
+}
+
+.border {
+    display: inline-block;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+}
+
